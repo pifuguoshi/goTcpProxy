@@ -5,8 +5,8 @@ timeout: 5
 failover: 3
 stats: 0.0.0.0:19999
 backend:
-    - 127.0.0.1:83
-    - 127.0.0.1:84
+  - 192.168.0.106:8383
+  - 192.168.0.106:8484
 log:
-    level: "info"
-    path: "/home/zj/log/proxy.log"
+  level: "info"
+  path: "./log/proxy.log"
